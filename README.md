@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a recipe you can use to integrate Amazon Chime with Franz.
+This is a recipe you can use to integrate Asana with Franz.
 
 You can download Franz at: https://meetfranz.com/  
 
