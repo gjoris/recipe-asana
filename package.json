@@ -1,0 +1,13 @@
+{
+  "id": "asana",
+  "name": "Asana recipe for Franz",
+  "version": "1.0.0",
+  "description": "Asana recipe for Franz",
+  "main": "index.js",
+  "author": "Geroen Joris <geroen@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/gjoris/recipe-asana",
+  "config": {
+    "serviceURL": "https://app.asana.com/"
+  }
+}

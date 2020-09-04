@@ -1,0 +1,21 @@
+name: Create Archive
+on:
+  push:
+    tags:
+      - 'v*'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+        with:
+          ref: ${{ github.ref }}
+      - name: Set env
+        run: echo ::set-env name=RELEASE_VERSION::$(echo ${GITHUB_REF:10})
+      - name: list contents
+        run: ls -lart
+      - name: Archive Release
+        uses: thedoctor0/zip-release@master
+        with:
+          filename: release-$RELEASE_VERSION.zip
+          exclusions: '*.git* install*.* LICENSE .gitignore'
