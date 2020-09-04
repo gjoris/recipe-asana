@@ -1,4 +1,4 @@
-# Amazon Chime recipe for Franz 5
+# Asana recipe for Franz 5
 
 ## Introduction
 
@@ -12,5 +12,5 @@ This is currently the developer version. So it requires a bit more than clicking
 
 1. Clone this repository
 2. Run the installation script for your respective platform
-3. In Franz, Services -> Add New Service -> Custom Services (selector under the serch box) -> Click "Amazon Chime"
+3. In Franz, Services -> Add New Service -> Custom Services (selector under the serch box) -> Click "Asana"
 4. Reload Franz

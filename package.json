@@ -1,6 +1,6 @@
 {
   "id": "asana",
-  "name": "Asana recipe for Franz",
+  "name": "Asana",
   "version": "1.0.0",
   "description": "Asana recipe for Franz",
   "main": "index.js",
